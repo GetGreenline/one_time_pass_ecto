@@ -15,7 +15,7 @@ defmodule OneTimePassEcto.Base do
   that an attacker would face an additional challenge to being authorized.
   """
 
-  use Bitwise
+  import Bitwise
 
   @doc """
   Generate a secret key to be used with one-time passwords.
